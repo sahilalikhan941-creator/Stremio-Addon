@@ -1,0 +1,19 @@
+{
+  "id": "com.stremio.uhdmovies",
+  "version": "1.0.0",
+  "name": "UHD Movies",
+  "description": "Stream HD movies from UHDMovies via Stremio",
+  "types": ["movie"],
+  "catalogs": [],
+  "resources": [
+    {
+      "name": "stream",
+      "types": ["movie"],
+      "idPrefixes": ["tt"]
+    }
+  ],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  }
+}
